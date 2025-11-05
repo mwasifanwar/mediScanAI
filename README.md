@@ -17,6 +17,9 @@
 
 <p>The project addresses the critical need for accurate, fast, and interpretable medical image analysis while maintaining clinical trustworthiness through comprehensive explainability features and multi-modal data integration.</p>
 
+<img width="799" height="414" alt="image" src="https://github.com/user-attachments/assets/94ba5dc7-bf6a-4ea0-9000-a37ea9e02ba0" />
+
+
 <h2>System Architecture</h2>
 
 <p>The system employs a sophisticated multi-branch architecture that processes both imaging data and clinical metadata through specialized encoders, followed by fusion and decision layers.</p>
@@ -26,6 +29,9 @@ Medical Image Input → Image Encoder (ResNet/DenseNet) ↘
                                                     Feature Fusion → Multi-Head Classifier → Diagnostic Output
 Clinical Data Input → Clinical Encoder (MLP)        ↗
 </pre>
+
+<img width="814" height="527" alt="image" src="https://github.com/user-attachments/assets/dd8b5325-a086-469e-ae48-806675b5ee48" />
+
 
 <p>The workflow encompasses:</p>
 <ul>
@@ -364,6 +370,9 @@ mediscan-ai/
 </tbody>
 </table>
 </div>
+
+<img width="892" height="477" alt="image" src="https://github.com/user-attachments/assets/851056ef-d191-4af2-a261-a56649bfeb48" />
+
 
 <h3>Multi-modal Advantage</h3>
 <p>Comparative analysis demonstrates the significant performance improvement from multi-modal integration:</p>
